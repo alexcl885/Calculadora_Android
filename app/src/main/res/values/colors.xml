@@ -3,4 +3,26 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="micolor">#3F0505</color>
+
+    <color name="purple_200">#724848</color>
+    <color name="color">#6BAE1E</color>
+
+
+    <color name="c_bt_principal">#FEE40909</color>
+    <color name="c_bt_principal_pulsado">#FE4A0101</color>
+    <color name="c_border_principal">#FEFEFEFE</color>
+    <color name="c_border_principal_pulsado">#FEFEFEFE</color>
+
+    <color name="c_bt_secundario">#C81CE6</color>
+    <color name="c_bt_secundario_pulsado">#4E055A</color>
+    <color name="c_border_secundario">#FEFEFEFE</color>
+    <color name="c_border_secundario_pulsado">#FEFEFEFE</color>
+
+    <color name="c_bt_terciario">#1A7AC7</color>
+    <color name="c_bt_terciario_pulsado">#07416E</color>
+    <color name="c_border_terciario">#FEFEFEFE</color>
+    <color name="c_border_terciario_pulsado">#FEFEFEFE</color>
+
+
+
 </resources>

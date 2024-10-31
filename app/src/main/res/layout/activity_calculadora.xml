@@ -29,13 +29,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="TextView" />
+                android:textSize="90dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/pantalla"
+                android:text="0" />
 
             <Button
                 android:id="@+id/bt_del"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                app:backgroundTint= "@null"
+                android:background="@drawable/botonchorra"
                 android:text="Button" />
 
         </LinearLayout>
@@ -54,48 +60,50 @@
 
                 <Button
                     android:id="@+id/bt_ac"
-                    style="?attr/materialButtonOutlinedStyle"
-                    android:layout_width="wrap_content"
 
-                    android:layout_height="119dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="94dp"
                     android:layout_weight="1"
-                    android:text="Button"
+                    android:background="@drawable/primero_selector"
+                    android:text="AC"
                     android:textSize="20sp"
-                    app:cornerRadius="12dp"
-                    app:strokeColor="@color/micolor" />
+                    app:backgroundTint="@null"
+                    app:cornerRadius="12dp" />
 
                 <Button
                     android:id="@+id/bt_srd"
-                    style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="wrap_content"
-                    android:layout_height="122dp"
+                    android:layout_height="91dp"
                     android:layout_weight="1"
-                    android:text="Button"
+                    android:background="@drawable/primero_selector"
+                    android:text="+/*-"
                     android:textSize="20sp"
-                    app:cornerRadius="12dp"
-                    app:strokeColor="@color/micolor" />
+                    app:backgroundTint="@null"
+                    app:cornerRadius="12dp" />
 
                 <Button
                     android:id="@+id/bt_porcentaje"
-                    style="?attr/materialButtonOutlinedStyle"
+
                     android:layout_width="wrap_content"
-                    android:layout_height="123dp"
+                    android:layout_height="88dp"
                     android:layout_weight="1"
-                    android:text="Button"
+                    android:background="@drawable/primero_selector"
+                    android:text="%"
                     android:textSize="20sp"
-                    app:cornerRadius="12dp"
-                    app:strokeColor="@color/micolor" />
+                    app:backgroundTint="@null"
+                    app:cornerRadius="12dp" />
 
                 <Button
                     android:id="@+id/bt_division"
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="wrap_content"
-                    android:layout_height="125dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Button"
+                    android:background="@drawable/primero_selector"
+                    android:text="/"
                     android:textSize="20sp"
-                    app:cornerRadius="12dp"
-                    app:strokeColor="@color/micolor" />
+                    app:backgroundTint="@null"
+                    app:cornerRadius="12dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -108,28 +116,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="128dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="7" />
 
                 <Button
                     android:id="@+id/bt_8"
                     android:layout_width="wrap_content"
                     android:layout_height="124dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="8" />
 
                 <Button
                     android:id="@+id/bt_9"
                     android:layout_width="wrap_content"
                     android:layout_height="117dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="9" />
 
                 <Button
                     android:id="@+id/bt_multiplicacion"
                     android:layout_width="wrap_content"
                     android:layout_height="123dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="*"
+                    app:backgroundTint= "@null"
+                    android:background="@drawable/primero_selector"/>
             </LinearLayout>
 
             <LinearLayout
@@ -163,7 +173,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="128dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Button"
+                    app:backgroundTint= "@null"
+                    android:background="@drawable/primero_selector"/>
             </LinearLayout>
 
             <LinearLayout
@@ -197,7 +209,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="116dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Button"
+                    app:backgroundTint= "@null"
+                    android:background="@drawable/primero_selector"/>
             </LinearLayout>
 
             <LinearLayout
@@ -224,7 +238,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="102dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Button"
+                    app:backgroundTint= "@null"
+                    android:background="@drawable/primero_selector"/>
 
 
             </LinearLayout>
